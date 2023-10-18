@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #3cf6fd;
+}
+
+.background {
+    background-image: url("background 1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.intro {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.5); /* Light blue background with low contrast */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mark.img{
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+
+}
+
+.compscience{
+    height: 200px;
+
+}
+
+.poshschool{
+    background-image: url(cambridge.png);
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.campus{
+    width: 350px;
+    height: 350px;
+    margin: 0px auto 50px auto ;
+    line-height: 2;
+
+}
+
+.campo{
+    color: #F6E1C3;
+}
+
+.Strathmore{
+    color: white;
+}
+
+.lamborgini{
+    background-image: url(lambo3.png);
+    width: 100%;
+
+}
+
+.projects{
+    height: 450px;
+    margin: 0 auto 0 auto ;
+
+}
+
+.project{
+    height: 350px;
+    width:350px ;
+    position: absolute;
+    margin-left: 75px;
+    line-height: 2;
+}
+
+.logo{
+    font-family: 'Cinzel Decorative', cursive;
+    color: aqua;
+}
+
+.volleyball{
+    background-image: url(volleyball2.png);
+    height:400px;
+    width: 100%;
+}
+
+.volleyball-love{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin-right:30px;
+    right: 0;
+    line-height: 2 ;
+}
+
+.sports{
+    color: #FC2947;
+}
+
+.voll{
+    color:white;
+}
+
+.bottom{
+    position: relative;
+}
+
+.Reachme{
+    width: 200px;
+    height: 300px;
+    line-height: 3;
+    position: absolute;
+    margin-left: 100px;
+    text-align: left;
+
+    
+}
+
+.Links{
+    width: 100px;
+    height: 300px;
+    line-height: 3;
+    position: absolute;
+    margin-left:350px ;
+    text-align: left;
+}
+
+
+h2{
+    color: #245953;
+    font-family: 'Calistoga', cursive;
+    font-size: 500;
+}
+
+
+
+h3{
+    color: #F6E1C3;
+}
+
+p{
+    text-align:center;
+    font-family: 'Alkatra', cursive;
+}
+
+
+footer{
+    padding: 0;
+    height: 400px;
+    background-color: #867070;
+    margin-top: 0;
+}
