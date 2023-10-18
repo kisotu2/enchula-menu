@@ -118,6 +118,10 @@
           padding: 10px;
           text-align: center;
         }
+        .menu-links{
+            display: flex;
+            flex-direction: row;
+        }
         .menu-links::after{
           content: "";
           clear: both;
@@ -147,6 +151,14 @@
         .header {
             background-color: #333;
         }
+        @media screen and (max-width: 600px) {
+            .menu-links{
+                flex-direction: column;
+            }
+            .heading{
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 
@@ -162,7 +174,7 @@
         <h2>The perfect place for getaways</h2>
     </div>
     <div>
-        <h3>HUNDREDS OF FLAVORS UNDER ONE ROOF</h3>
+        <h3 class="heading">HUNDREDS OF FLAVORS UNDER ONE ROOF</h3>
         <div class="menu-links">
           <div class="column">
             <a href="pages/breakfast.html">
