@@ -1,163 +1,243 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
+}
+
+h3 {
     text-align: center;
-    background-color: #3cf6fd;
-}
-
-.background {
-    background-image: url("background 1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
-.intro {
-    margin: 0;
-    padding: 0;
-    width: auto;
-    height: 450px;
-    background-color: rgba(255, 255, 255, 0.5); /* Light blue background with low contrast */
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.Mark.img{
-    float: left;
-    width: 25%;
-    margin-right: 30px;
-
-}
-
-.compscience{
-    height: 200px;
-
-}
-
-.poshschool{
-    background-image: url(cambridge.png);
-    height: 400px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.campus{
-    width: 350px;
-    height: 350px;
-    margin: 0px auto 50px auto ;
-    line-height: 2;
-
-}
-
-.campo{
-    color: #F6E1C3;
-}
-
-.Strathmore{
-    color: white;
-}
-
-.lamborgini{
-    background-image: url(lambo3.png);
-    width: 100%;
-
-}
-
-.projects{
-    height: 450px;
-    margin: 0 auto 0 auto ;
-
-}
-
-.project{
-    height: 350px;
-    width:350px ;
-    position: absolute;
-    margin-left: 75px;
-    line-height: 2;
-}
-
-.logo{
-    font-family: 'Cinzel Decorative', cursive;
-    color: aqua;
-}
-
-.volleyball{
-    background-image: url(volleyball2.png);
-    height:400px;
-    width: 100%;
-}
-
-.volleyball-love{
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    margin-right:30px;
-    right: 0;
-    line-height: 2 ;
-}
-
-.sports{
-    color: #FC2947;
-}
-
-.voll{
-    color:white;
-}
-
-.bottom{
-    position: relative;
-}
-
-.Reachme{
-    width: 200px;
-    height: 300px;
-    line-height: 3;
-    position: absolute;
-    margin-left: 100px;
-    text-align: left;
-
+    font-size: 24px;
+    color: black;
     
 }
+.background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Place it behind other content */
+            filter: blur(10px); /* Apply a blur effect */
+        }
 
-.Links{
-    width: 100px;
-    height: 300px;
-    line-height: 3;
-    position: absolute;
-    margin-left:350px ;
-    text-align: left;
+.breakfast-links {
+    background-color: white;
+          width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 970px; /* Adjust as needed */
+            margin: 0 auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
 }
 
-
-h2{
-    color: #245953;
-    font-family: 'Calistoga', cursive;
-    font-size: 500;
+.breko {
+    float: left;
+          width: 45%;
+          padding: 5px;
+          text-align: center;
 }
 
-
-
-h3{
-    color: #F6E1C3;
+.breakfast-links::after{
+          content: "";
+          clear: both;
+          display: table;
+        }
+.breko a {
+    text-decoration: none;
+            text-align: center;
+            width: 48%; /* Ensure equal spacing between images */
+            padding: 10px;
+            color: #161515;
+            font-size: 18px;
 }
 
-p{
-    text-align:center;
-    font-family: 'Alkatra', cursive;
+.breko img {
+    width: 50%;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
-
-footer{
-    padding: 0;
-    height: 400px;
-    background-color: #867070;
-    margin-top: 0;
+.breko:hover img {
+    border: 1px solid #ff5722;
 }
+img:hover{
+          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            background-color: beige;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+        }
+
+        .container:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(240, 233, 233, 0.2);
+            z-index: -1;
+        }
+
+        header {
+            color: #f9f2f2;
+            background-color: #111112;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .navigation-menu {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .navigation-menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        .navigation-menu a:hover {
+            background-color: #555;
+        }
+
+        .hero {
+            color: #0f0e0e;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px 20%;
+            
+        }
+
+        h1 {
+            font-weight: 1000;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 1%;
+        }
+
+        h3, h4 {
+            font-size: 28px;
+            color: #520202;
+        }
+
+        h5, h6 {
+            font-size: 24px;
+            font-style: italic;
+        }
+
+        h6, p {
+            font-size: 18px;
+            font-style: italic;
+            text-indent: 10%;
+        }
+
+        .registration-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .registration-icon {
+            font-size: 48px;
+        }
+
+        /* Add flexbox style for images and links */
+        .menu-links {
+          background-color: white;
+          width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 970px; /* Adjust as needed */
+            margin: 0 auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+        }
+        .column{
+          float: left;
+          width: 45%;
+          padding: 10px;
+          text-align: center;
+        }
+        .menu-links{
+            display: flex;
+            flex-direction: row;
+        }
+        .menu-links::after{
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        .menu-links a {
+            text-decoration: none;
+            text-align: center;
+            width: 48%; /* Ensure equal spacing between images */
+            padding: 10px;
+            color: #161515;
+            font-size: 18px;
+        }
+
+        .menu-links img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+        img:hover{
+          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        .header {
+            background-color: #333;
+        }
+        @media screen and (max-width: 600px) {
+            .menu-links{
+                flex-direction: column;
+            }
+            .heading{
+                font-size: 1rem;
+            }
+        }
+        #datetime {
+            font-size: 13px;
+            color: #000000;
+            background-color: beige; /* Semi-transparent black background */
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            bottom: -190px;
+            right: 20px;
+            width: 25%;
+            height: auto;
+            z-index: 10; /* Ensure it appears above other content */
+        }
+        
+     

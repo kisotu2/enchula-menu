@@ -55,7 +55,15 @@ h3 {
     margin-right: auto;
     border-radius: 10px;
 }
-
+.background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Place it behind other content */
+            filter: blur(10px); /* Apply a blur effect */
+        }
 .breko:hover img {
     border: 1px solid #ff5722;
 }
@@ -68,9 +76,10 @@ img:hover{
     }
     </style>
 
-<h3>Big Meal Combo
+<h3>Chicken
     
 </h3>
+<img class="background-image" src="../images/chicken 1.webp" alt="background">
 <div class="breakfast-links">
     <div class="breko">
         <a><img src="../images/fried chicken.jpg" alt="fried chicken" >

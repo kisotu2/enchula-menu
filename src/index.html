@@ -1,207 +1,61 @@
 <!DOCTYPE html>
 <html>
- 
+
 <head>
     <link rel="stylesheet" href="styles/menu.css">
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
 
-        .container {
-            background-color: beige;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            position: relative;
-            z-index: 1;
-            min-height: 100vh;
-        }
-
-        .container:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            background-color: rgba(240, 233, 233, 0.2);
-            z-index: -1;
-        }
-
-        header {
-            color: #f9f2f2;
-            background-color: #111112;
-            padding: 10px;
-            text-align: center;
-            font-size: 24px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-        .navigation-menu {
-            background-color: #333;
-            overflow: hidden;
-            padding: 10px 0;
-        }
-
-        .navigation-menu a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 18px;
-            margin-right: 10px;
-        }
-
-        .navigation-menu a:hover {
-            background-color: #555;
-        }
-
-        .hero {
-            color: #0f0e0e;
-            font-weight: bold;
-            text-align: center;
-            padding: 20px 20%;
-            
-        }
-
-        h1 {
-            font-weight: 1000;
-            background-color: rgba(0, 0, 0, 0.4);
-            padding: 1%;
-        }
-
-        h3, h4 {
-            font-size: 28px;
-            color: #520202;
-        }
-
-        h5, h6 {
-            font-size: 24px;
-            font-style: italic;
-        }
-
-        h6, p {
-            font-size: 18px;
-            font-style: italic;
-            text-indent: 10%;
-        }
-
-        .registration-section {
-            text-align: center;
-            padding: 50px 0;
-        }
-
-        .registration-icon {
-            font-size: 48px;
-        }
-
-        /* Add flexbox style for images and links */
-        .menu-links {
-          background-color: white;
-          width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 970px; /* Adjust as needed */
-            margin: 0 auto;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-        .column{
-          float: left;
-          width: 45%;
-          padding: 10px;
-          text-align: center;
-        }
-        .menu-links{
-            display: flex;
-            flex-direction: row;
-        }
-        .menu-links::after{
-          content: "";
-          clear: both;
-          display: table;
-        }
-
-        .menu-links a {
-            text-decoration: none;
-            text-align: center;
-            width: 48%; /* Ensure equal spacing between images */
-            padding: 10px;
-            color: #161515;
-            font-size: 18px;
-        }
-
-        .menu-links img {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 10px;
-        }
-        img:hover{
-          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-        }
-        .header {
-            background-color: #333;
-        }
-        @media screen and (max-width: 600px) {
-            .menu-links{
-                flex-direction: column;
-            }
-            .heading{
-                font-size: 1rem;
-            }
-        }
-    </style>
 </head>
 
 <body>
-    
-  
-<div class="container">
-    <header>
-        
-        WELCOME TO ENCHULA HOTEL
-    </header>
-    <div class="hero">
-        <h2>The perfect place for getaways</h2>
-    </div>
-    <div>
-        <h3 class="heading">HUNDREDS OF FLAVORS UNDER ONE ROOF</h3>
-        <div class="menu-links">
-          <div class="column">
-            <a href="pages/breakfast.html">
-                <img src="images/donuts.jpeg" alt="breakfast">
-                Breakfast
-            </a>
-            </div>
-            <div class="column">
-            <a href="pages/big meals.html">
-                <img src="images/big meal.jpg" alt="big-meal">
-                Big Meals
-            </a>
-            </div>
-            <div class="column">
-            <a href="pages/drinks.html">
-                <img src="images/fruit juice 2.webp" alt="drinks">
-                Drinks
-            </a>
-            </div >
-            <div class="column">
-            <a href="pages/desserts.html">
-                <img src="images/desserts 1.webp" alt="desserts">
-                Desserts
-            </a>
+
+    <div class="container">
+        <header>
+            WELCOME TO ENCHULA HOTEL
+        </header>
+        <div class="hero">
+            <h2>The perfect place for getaways</h2>
+        </div>
+        <div>
+            <h3 class="heading">HUNDREDS OF FLAVORS UNDER ONE ROOF</h3>
+            <div class="menu-links">
+                <div class="column">
+                    <a href="pages/breakfast.html">
+                        <img src="images/donuts.jpeg" alt="breakfast">
+                        Breakfast
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="pages/big_meals.html">
+                        <img src="images/big meal.jpg" alt="big-meal">
+                        Big Meals
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="pages/drinks.html">
+                        <img src="images/fruit juice 2.webp" alt="drinks">
+                        Drinks
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="pages/desserts.html">
+                        <img src="images/desserts 1.webp" alt="desserts">
+                        Desserts
+                    </a>
+                </div>
             </div>
         </div>
+        <div id="datetime"></div> <!-- Add this element for displaying date and time -->
     </div>
-</div>
+
+    <script>
+        // Get current date and time
+        var now = new Date();
+        var options = { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+        var formattedDateTime = now.toLocaleDateString('en-US', options);
+
+        // Insert formatted date and time into HTML
+        document.getElementById("datetime").innerHTML = "Current Date and Time: " + formattedDateTime;
+    </script>
 </body>
+
 </html>

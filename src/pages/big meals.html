@@ -3,64 +3,65 @@
 <body>
     <style>
         body {
-    font-family: Arial, sans-serif;
-}
+            font-family: Arial, sans-serif;
+        }
 
-h3 {
-    text-align: center;
-    font-size: 24px;
-    color: black;
-    
-}
+        h3 {
+            text-align: center;
+            font-size: 24px;
+            color: black;
+        }
 
-.breakfast-links {
-    background-color: white;
-          width: 100%;
+        .breakfast-links {
+            background-color: white;
+            width: 100%;
             display: flex;
+            border-radius: 10px;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             max-width: 970px; /* Adjust as needed */
             margin: 0 auto;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.breko {
-    float: left;
-          width: 45%;
-          padding: 5px;
-          text-align: center;
-}
-
-.breakfast-links::after{
-          content: "";
-          clear: both;
-          display: table;
         }
-.breko a {
-    text-decoration: none;
+
+        .breko {
+            float: left;
+            width: 45%;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .breakfast-links::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .breko a {
+            text-decoration: none;
             text-align: center;
             width: 48%; /* Ensure equal spacing between images */
             padding: 10px;
             color: #161515;
             font-size: 18px;
-}
+        }
 
-.breko img {
-    width: 50%;
-    height: auto;
-    display: block;
-    border: 1px solid #ccc;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-}
+        .breko img {
+            width: 50%;
+            height: auto;
+            display: block;
+            border: 1px solid #ccc;
+            margin: 0 auto; /* Center the image horizontally */
+            border-radius: 10px;
+        }
 
-.breko:hover img {
-    border: 1px solid #ff5722;
-}
-img:hover{
-          box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        .breko:hover img {
+            border: 1px solid #ff5722;
+        }
+
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
         }
     </style>
 
