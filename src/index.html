@@ -2,15 +2,16 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/menu.css">
-
 </head>
+
 
 <body>
 
     <div class="container">
         <header>
-            WELCOME TO ENCHULA HOTEL
+            WELCOME TO ENKIPAI HILLS HOTEL
         </header>
         <div class="hero">
             <h2>The perfect place for getaways</h2>
@@ -25,7 +26,7 @@
                     </a>
                 </div>
                 <div class="column">
-                    <a href="pages/big_meals.html">
+                    <a href="pages/big meals.html">
                         <img src="images/big meal.jpg" alt="big-meal">
                         Big Meals
                     </a>
@@ -46,16 +47,16 @@
         </div>
         <div id="datetime"></div> <!-- Add this element for displaying date and time -->
     </div>
-
     <script>
         // Get current date and time
         var now = new Date();
         var options = { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
         var formattedDateTime = now.toLocaleDateString('en-US', options);
-
+    
         // Insert formatted date and time into HTML
         document.getElementById("datetime").innerHTML = "Current Date and Time: " + formattedDateTime;
     </script>
-</body>
+    </body>
+    
 
 </html>
